@@ -1,0 +1,381 @@
+/* ===========================================
+   RENTLONA FOOTER - MODERN DESIGN
+   =========================================== */
+
+.footer-cta {
+  background: linear-gradient(135deg, #109ae4 0%, #109ae4 100%);
+  color: white;
+  padding: 4rem 0;
+  margin-top: 4rem;
+}
+
+.footer-cta .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.cta-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+  letter-spacing: -0.025em;
+}
+
+.cta-content p {
+  font-size: 1.25rem;
+  color: #cbd5e1;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-primary,
+.cta-secondary {
+  padding: 0.875rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 160px;
+}
+
+.cta-primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.cta-primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid #cbd5e1;
+}
+
+.cta-secondary:hover {
+  background: white;
+  color: #1e293b;
+  transform: translateY(-2px);
+}
+
+/* ===========================================
+   MAIN FOOTER
+   =========================================== */
+
+.footer {
+  background: #109ae4;
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer .container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #3b82f6;
+  letter-spacing: -0.025em;
+}
+
+.footer-column h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.footer-column p {
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.footer-links a:hover {
+  color: #3b82f6;
+  transform: translateX(2px);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.social-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-link:hover {
+  color: #3b82f6;
+  transform: translateX(2px);
+}
+
+.social-link::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #3b82f6;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+/* ===========================================
+   FOOTER BOTTOM
+   =========================================== */
+
+.footer-bottom {
+  border-top: 1px solid #334155;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #64748b;
+  font-size: 0.875rem;
+  margin: 0;
+  letter-spacing: 0.025em;
+}
+
+/* ===========================================
+   RESPONSIVE DESIGN
+   =========================================== */
+
+@media (max-width: 1024px) {
+  .footer-main {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+
+  .cta-content p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-cta {
+    padding: 3rem 0;
+  }
+
+  .cta-content h2 {
+    font-size: 1.875rem;
+  }
+
+  .cta-content p {
+    font-size: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footer-column h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 3rem 0 2rem;
+  }
+
+  .social-links {
+    align-items: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-cta {
+    padding: 2.5rem 0;
+  }
+
+  .cta-content {
+    padding: 0 1rem;
+  }
+
+  .cta-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-content p {
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    padding: 2.5rem 0 1.5rem;
+  }
+
+  .footer-main {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-cta {
+    padding: 2rem 0;
+  }
+
+  .cta-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .cta-content p {
+    font-size: 0.9rem;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .footer-column h3 {
+    font-size: 1.25rem;
+  }
+
+  .footer-column h4 {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a,
+  .social-link {
+    font-size: 0.9rem;
+  }
+}
+
+/* ===========================================
+   ACCESSIBILITY & FOCUS STATES
+   =========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-primary,
+  .cta-secondary,
+  .footer-links a,
+  .social-link {
+    transition: none;
+  }
+
+  .cta-primary:hover,
+  .cta-secondary:hover {
+    transform: none;
+  }
+
+  .footer-links a:hover,
+  .social-link:hover {
+    transform: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .footer-cta {
+    background: #109ae4;
+  }
+
+  .footer {
+    background: #109ae4;
+    border-top: 2px solid #ffffff;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    border: 2px solid #ffffff;
+  }
+
+  .footer-bottom {
+    border-top: 2px solid #ffffff;
+  }
+}
+
+/* Focus visible for keyboard navigation */
+.cta-primary:focus-visible,
+.cta-secondary:focus-visible,
+.footer-links a:focus-visible,
+.social-link:focus-visible {
+  outline: 2px solid #109ae4;
+  outline-offset: 2px;
+}
